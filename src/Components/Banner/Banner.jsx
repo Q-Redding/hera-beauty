@@ -5,7 +5,7 @@ import leaf from '../../img/leaf.png';
 
 
 const Banner = () => (
-    <div className="container mx-auto flex items-center mt-20 mb-10">
+    <div className="container mx-40 flex items-center mt-20 mb-10">
         <div>
             <h1 className="font-krona text-3xl mb-4">
                 Hera Beauty Store
@@ -20,7 +20,7 @@ const Banner = () => (
                 isMain
             />
         </div>
-        <div className="ml-4 mb-10 h-30 w-full">
+        <div className="ml-4 mb-10 mx-10 h-30 w-full">
             <img src={leaf} alt="Tooth brush and a paste laying on top of a green leaf" />
         </div>
     </div>

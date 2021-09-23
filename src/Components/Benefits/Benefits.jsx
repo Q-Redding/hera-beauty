@@ -18,7 +18,7 @@ const benefits = [
 
 const Benefits = () => {
     return(
-        <div className="container mx-auto flex mb-20">
+        <div className="container flex mb-20 mx-10">
             {benefits.map(item => (
                 <BenefitsItem key={item.title} item={item} />
             ))}

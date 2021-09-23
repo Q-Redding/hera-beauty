@@ -7,7 +7,7 @@ const MiniCompanyBio = () => (
         <div className="bg-light-grey pt-20 mb-20">
             <div className="container mx-auto pt-20 pb-10 flex items-center">
                 <div className="mr-4">
-                    <img src={banner_img} alt="Supplies for makeup" />
+                    <img src={banner_img} alt="Supplies for makeup" className="mx-10" />
                 </div>
                 <div>
                     <h2 className="font-krona text-3xl mb-4">Hera Beauty Motto</h2>

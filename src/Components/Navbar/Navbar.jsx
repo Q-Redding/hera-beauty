@@ -9,7 +9,7 @@ import SearchIcon from "../Icons/SearchIcon";
 
 const Navbar = () => {
   return (
-      <nav className="container mx-auto flex font-krona justify-between py-3 sticky">
+      <nav className="container mx-auto flex font-krona justify-between px-10 py-3 sticky">
           {/* Brand Name */}
           <BrandLink />
 

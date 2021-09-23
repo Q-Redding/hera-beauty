@@ -15,7 +15,7 @@ const TopProducts = () => {
     return (
         <div>
             <div className="container mx-auto">
-                <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center justify-between mx-10 mb-6">
                     <SectionTitle text="Top Products" />
                 </div>
                 {/* Products */}
