@@ -14,7 +14,7 @@ const useGetProducts = () => {
         axios
             .get(`${BASE_URL}.json`, {
                 params: {
-                    product_tags: 'ecocert',
+                    product_tags: 'EcoCert',
                 },
             })
             .then(response => setProducts(response.data));

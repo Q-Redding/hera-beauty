@@ -12,7 +12,7 @@ const Product = () => {
     if (!singleProduct) return <p>Loading...</p>;
 
     return (
-        <div className="mt-20 container mx-auto h-screen">
+        <div className="mt-20 container mx-auto h-screen bg-whitesmoke">
             <ProductTitle name={singleProduct.name} type={singleProduct.product_type} />
 
             <div className="flex mb-10">
@@ -30,7 +30,6 @@ const Product = () => {
                     {/* price */}
                     <div className="flex my-10 justify-between">
                         <ProductPrice price={singleProduct.price} isLarge />
-                        <div>counter</div>
                         <button className="inline-block rounded-full font-bold font-krona text-xs bg-yellow py-3 px-6 hover:text-secondary">
                             <CartIcon color={'#222'}/>
                             add to basket
