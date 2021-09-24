@@ -5,7 +5,7 @@ import leaf from '../../img/leaf.png';
 
 
 const Banner = () => (
-    <div className="container mx-40 flex items-center mt-20 mb-10">
+    <div className="container mx-40 flex items-center mt-20 mb-10 xl:ml-40">
         <div>
             <h1 className="font-krona text-3xl mb-4">
                 Hera Beauty Store

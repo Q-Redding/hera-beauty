@@ -3,9 +3,9 @@ import flowers from '../img/flowers.jpg';
 
 const About = () => {
         return (
-            <div className="container bg-whitesmoke">
+            <div className="container bg-whitesmoke mx-auto">
                 <div className="font-krona mx-96 mb-5">
-                    <h1 className="uppercase text-2xl">hera beauty motto</h1>
+                    <h1 className="uppercase text-2xl pt-5">hera beauty motto</h1>
                     <p className="text-md">Est. 2020</p>
                     <img src={flowers} alt="flowers" className="rounded-2xl mt-10" />
                 </div>
